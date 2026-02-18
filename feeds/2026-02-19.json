@@ -1,0 +1,60 @@
+{
+  "date": "2026-02-19",
+  "version": 2,
+  "experiment": "001_family_discovery",
+  "audioFile": "morning_briefing_matt_voice.mp3",
+  "artifacts": [
+    {
+      "id": "matt-20260219-001",
+      "type": "family",
+      "title": "Mason T-18: The Invisible Checklist",
+      "hook": "First birthday logistics nobody remembers",
+      "content": "18 days out. The cake is ordered. Faye and Jeff have flights. But first birthdays have a chaos multiplier. Here's what slips through:\n\n**Often forgotten:**\n• Backup outfit (cake = destruction)\n• Age-appropriate candle (no '1' with a sharp edge)\n• Phone charger station for grandparent photographers\n• Naptime buffer in the schedule\n• Doggy daycare? Louie + toddler chaos + guests\n\n**One thing to lock today:** Text Jes about backup outfit strategy.",
+      "action": {"type": "text", "label": "Text Jes", "payload": "Hey - should we grab a backup outfit for Mason's party? Cake situation could get messy 🎂"},
+      "relevance": 0.96,
+      "metadata": {"countdown_days": 18, "event": "mason_first_birthday"}
+    },
+    {
+      "id": "matt-20260219-002",
+      "type": "shareable",
+      "title": "The Peptide Positioning Gap",
+      "hook": "Forward-worthy market insight",
+      "content": "Noticed something watching competitor moves: Every major GLP-1 telehealth player is running *away* from the word 'peptide.' Marek's expansion says 'weight management + longevity.' Hone says 'hormone optimization.' They're all hiding from the science.\n\nMeanwhile NoHo runs toward it.\n\n'Protocol-first' isn't just branding — it's claiming the space everyone else is vacating. When peptides go mainstream (and they will), you're already the brand that owned the word.\n\n**Shareable insight for**: Raja, investor updates, podcast prep",
+      "action": {"type": "bookmark", "label": "Save for later"},
+      "relevance": 0.89,
+      "metadata": {"shareable_to": ["raja_haddad", "investors"]}
+    },
+    {
+      "id": "matt-20260219-003",
+      "type": "family",
+      "title": "Vera Day 4",
+      "hook": "Today's encouragement",
+      "content": "Four days of consistency. The research says habit formation needs 3 weeks minimum, but for Vera, your consistency IS the intervention. She's 75, fighting to lose weight for a surgery that could change her mobility and independence.\n\n**Today's text option:**\n\"Hey Mom - thinking about you. Every small choice adds up. You've got this. Love you.\"\n\nNo pressure to be profound. Just present.",
+      "action": {"type": "send", "label": "Send to Mom", "payload": "Hey Mom - thinking about you. Every small choice adds up. You've got this. Love you."},
+      "relevance": 0.93,
+      "metadata": {"streak_day": 4, "person": "vera"}
+    },
+    {
+      "id": "matt-20260219-004",
+      "type": "discovery",
+      "title": "Thursday Protocol Spotlight Angle",
+      "hook": "Content calendar: Thursday = education",
+      "content": "Your content calendar marks Thursday for Protocol Spotlights. Here's an angle worth testing:\n\n**'Earn the Injection' Series: BPC-157 Deep Dive**\n\nMost peptide content = what it does.\nNoHo opportunity = what you do first.\n\nFrame: BPC-157 isn't magic for someone eating garbage and not moving. Show the protocol *around* the peptide:\n- Sleep optimization (why 8pm secretagogue timing matters)\n- Training window considerations\n- Stacking logic\n\nThis positions NoHo as coaching, not just prescribing.\n\n**Visual angle:** Your DEXA transformation as proof of protocol, not just peptide.",
+      "action": {"type": "draft", "label": "Start draft"},
+      "relevance": 0.87,
+      "metadata": {"content_type": "protocol_spotlight"}
+    },
+    {
+      "id": "matt-20260219-005",
+      "type": "family",
+      "title": "Josie Thursday: Science Beach Day",
+      "hook": "3pm activity that teaches",
+      "content": "Destin forecast: 68°F, mostly sunny. Perfect beach window.\n\n**Activity twist that compounds:**\nBring a bucket and magnifying glass. Hunt for shells, but make it a 'science expedition.' At 3.5, Josie's brain is wiring for curiosity patterns. Questions like 'how did the shell get that color?' plant seeds.\n\nNo Pinterest pressure. Just dad + daughter + discovery.\n\n**Backup if weather turns:** Kitchen science — vinegar + baking soda volcanos never fail.",
+      "action": null,
+      "relevance": 0.91,
+      "metadata": {"activity_type": "outdoor", "weather_dependent": true}
+    }
+  ],
+  "briefingScript": "morning_briefing_script.txt",
+  "generatedAt": "2026-02-18T02:02:00Z"
+}
